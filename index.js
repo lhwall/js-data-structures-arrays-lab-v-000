@@ -27,5 +27,5 @@ return [name, ...drivers]
 }
 
 function removeLastDriver(name){
-  return drivers.slice(-1)
+  return drivers.slice(0, 2)
 }
